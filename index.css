@@ -81,3 +81,10 @@ header{
     height: 100px;
     width: 100px;
 }
+
+/* Media query para telas menores que 400px */
+@media (max-width: 400px) {
+    body {
+      font-size: 12px; /* Tamanho de fonte para telas menores que 400px */
+    }
+  }
