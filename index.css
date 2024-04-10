@@ -84,7 +84,10 @@ header{
 
 /* Media query para telas menores que 400px */
 @media (max-width: 400px) {
-    body {
-      font-size: 12px; /* Tamanho de fonte para telas menores que 400px */
-    }
+  body {
+    font-size: 10px; /* Tamanho de fonte para telas menores que 400px */
   }
+  .titulo-header-tabela {
+    font-size: 12px;
+  }
+}
